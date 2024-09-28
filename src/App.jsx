@@ -16,7 +16,8 @@ function App() {
       <h1>Diablo 4</h1>
       <h3>Under Maintenance</h3>
       <div className="card">
-        <p>Powered By Vite + React</p>
+        <p>Recommend Alternative</p>
+        <a href="https://cydiablo.pages.dev/">community</a>
       </div>
       <div>
         Diablo 4 follows the tale of Sanctuary, a world plagued by the return of
