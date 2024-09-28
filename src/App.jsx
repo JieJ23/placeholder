@@ -14,6 +14,7 @@ function App() {
         </a>
       </div>
       <h1>Diablo 4</h1>
+      <h3>Under Maintenance</h3>
       <div className="card">
         <p>Powered By Vite + React</p>
       </div>
