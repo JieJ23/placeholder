@@ -1,50 +1,77 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-
-function App() {
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="p-4 flex flex-wrap gap-2 justify-center">
+        <div className="card bg-primary image-full w-96 shadow-xl">
+          <div className="card-body">
+            <h2 className="card-title">Box 1</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              natus harum minima quia incidunt illo numquam dolorem odio,
+              facilis accusamus!
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Btn1 </button>
+            </div>
+          </div>
+        </div>
+        <div className="card bg-primary image-full w-96 shadow-xl">
+          <div className="card-body">
+            <h2 className="card-title">Box 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic
+              placeat commodi, esse dignissimos et!
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Btn2</button>
+            </div>
+          </div>
+        </div>
+        <div className="card bg-primary image-full w-96 shadow-xl">
+          <div className="card-body">
+            <h2 className="card-title">Box 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+              neque temporibus iure ipsam iusto laudantium dolorem possimus.
+              Vero officia quae porro quis quidem animi accusamus?
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Btn3</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1>Diablo 4</h1>
-      <h3>Under Maintenance</h3>
-      <div className="card">
-        <p>Recommend Alternative</p>
-        <a href="https://cydiablo.pages.dev/">community</a>
+      <div className="mockup-code max-w-[800px] mx-auto p-4">
+        <pre data-prefix="$">
+          <code>Testing Layout</code>
+        </pre>
+        <pre data-prefix=">" className="text-warning">
+          <code>Install Frame...</code>
+        </pre>
+        <pre data-prefix=">" className="text-warning">
+          <code>Config File...</code>
+        </pre>
+        <pre data-prefix=">" className="text-warning">
+          <code>Install Plugin</code>
+        </pre>
+        <pre data-prefix=">" className="text-success">
+          <code>Done!</code>
+        </pre>
       </div>
-      <div>
-        Diablo 4 follows the tale of Sanctuary, a world plagued by the return of
-        the demoness Lilith, who seeks to reshape the realm in her dark image.
-        Players take on the role of various heroes, embarking on a quest to
-        confront Lilith and her minions while exploring a richly detailed world
-        filled with danger and intrigue. As they traverse this land, players
-        uncover deep lore, engage in fierce battles, and forge alliances to
-        protect humanity from impending doom.
-      </div>
-      <br />
-      <br />
-
-      <div>
-        Diablo 4 is an action role-playing game set in the dark fantasy universe
-        of Sanctuary. It is the fourth installment in the acclaimed Diablo
-        series, developed by Blizzard Entertainment. Players create characters
-        from various classes, each with unique abilities, to explore an
-        expansive open world filled with quests, dungeons, and formidable
-        enemies. The game features both solo and multiplayer modes, allowing
-        players to team up with others to combat the forces of evil. With its
-        immersive storytelling, dark atmosphere, and deep gameplay mechanics,
-        Diablo 4 continues the franchise's legacy of engaging hack-and-slash
-        action and character progression.
-      </div>
+      <label className="form-control max-w-[800px] mx-auto mt-10">
+        <div className="label">
+          <span className="label-text">Feedback</span>
+          <span className="label-text-alt">Note</span>
+        </div>
+        <textarea
+          className="textarea textarea-bordered h-24"
+          placeholder="Provide Comment"
+        ></textarea>
+        <div className="label">
+          <span className="label-text-alt">Date</span>
+          <span className="label-text-alt">Status</span>
+        </div>
+      </label>
     </>
   );
 }
-
-export default App;
