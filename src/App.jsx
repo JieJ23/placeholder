@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <>
+    <div className="h-lvh bg-[#171616]">
       <div className="p-4 flex flex-wrap gap-2 justify-center">
         <div className="card bg-primary image-full w-96 shadow-xl">
           <div className="card-body">
@@ -72,6 +72,6 @@ export default function App() {
           <span className="label-text-alt">Status</span>
         </div>
       </label>
-    </>
+    </div>
   );
 }
