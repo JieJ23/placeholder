@@ -41,6 +41,9 @@ export default function App() {
         <pre data-prefix=">" className="text-warning">
           <code>Four (2023)</code>
         </pre>
+        <pre data-prefix=">" className="text-warning">
+          <code>Four DLC (2024)</code>
+        </pre>
       </div>
       <div className="p-4 flex justify-center">
         <div className="card bg-success image-full w-[1000px] shadow-xl">
